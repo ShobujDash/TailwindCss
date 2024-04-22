@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="min-h-screen w-screen flex justify-center items-center "
+    >
+      <div
+        class="max-w-5xl w-full mx-auto flex flex-col md:flex-row bg-white p-10 gap-6 rounded-xl shadow-2xl"
+      >
+        <div
+          class="w-full md:w-1/2 bg-[#E2ECFF] flex justify-center items-center rounded-[15px]"
+        >
+          <div class="flex flex-col justify-center items-center text-center p-4">
+            <img
+              src="../image/mrdas.jpg"
+              alt="Mr Das"
+              class="w-20 h-20 rounded-xl"
+            />
+            <h1 class="text-2xl font-bold py-6">
+              Let us help your run your own platform
+            </h1>
+            <p class="text-sm text-gray-600">
+              Our registration process is quicker than other edtech platform
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 py-10">
+          <h1 class="text-2xl font-bold">Get Started</h1>
+          <p class="text-gray-500 pb-10">Create your account now!</p>
+          <form action="#" class="flex flex-col gap-6">
+            <div>
+              <label class="text-gray-500 block pb-2.5" for="fName"
+                >Full Name:</label
+              >
+              <input
+                type="text"
+                name="fName"
+                id="fName"
+                placeholder="Alex"
+                class="w-full border border-gray-500 px-4 py-1 focus:outline-none rounded-md placeholder:text-green-500 text-green-400"
+              />
+            </div>
+            <div>
+              <label class="text-gray-500 block pb-2.5" for="fEmail"
+                >Email:</label
+              >
+              <input
+                type="text"
+                name="fEmail"
+                id="fEmail"
+                placeholder="alex@gmail.com"
+                class="w-full border border-gray-500 px-4 py-1 focus:outline-none rounded-md placeholder:text-green-500 text-green-400"
+              />
+            </div>
+            <div>
+              <label class="text-gray-500 inline-block pb-2.5" for="fPass"
+                >Password:</label
+              >
+              <input
+                type="password"
+                name="fPass"
+                id="fPass"
+                class="w-full border border-gray-500 px-4 py-1 focus:outline-none rounded-md placeholder:text-green-500 text-green-400"
+              />
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="bg-[#0082DF] w-full py-4 font-bold text-white rounded-md"
+              >
+                SingIn
+              </button>
+            </div>
+          </form>
+          <p>
+            Alread a member?
+            <span class="text-[#0082DF] font-bold">Sing in</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
